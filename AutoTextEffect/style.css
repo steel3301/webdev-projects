@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #893168;
+    font-family: Yoruka;
+    color: #EAEAEA;
+}
+
+@font-face{
+    font-family: Yoruka;
+    src: url('Yoruka.ttf') format('truetype');
+}
