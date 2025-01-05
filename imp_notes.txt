@@ -1,0 +1,6 @@
+CSS properties
+
+overflow: control what happens when the contect within
+an element exceeds its designtated area
+
+pointer-event: defined whether or not an elment reacts to pointer events
