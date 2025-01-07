@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: "Fluff-Plush";
+    justify-content: center;
+    background-image: url("back-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 70px;
+    text-align: center;
+    color: #F4E3CF;
+    background: #9B6941;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.clock{
+    display: flex;
+    
+}
+
+.clock div{
+    margin: 15px;
+    position: relative;
+}
+
+
+.clock span{
+    width: 100px;
+    width: 80px;
+    font-size: 45px;
+    color: #FCF0E1;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    background: #7d82b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock .text{
+    height: 30px;
+    width: 85px;
+    padding: px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: #613f75;
+    color: #E7DECD;
+}
+
+.clock #am-pm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "Fluff-Plush";
+    src: url("Atop.ttf") format("truetype");
+}
